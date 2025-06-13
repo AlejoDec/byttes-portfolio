@@ -19,9 +19,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install pnpm
-        run: |
-          npm install -g pnpm
-          echo "::add-path::$(npm bin -g)"
+        run: npm install -g pnpm
 
       - name: Verify pnpm installation
         run: pnpm --version
