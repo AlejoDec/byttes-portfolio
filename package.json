@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "astro": "^5.9.3",
+    "flowbite": "^3.1.2",
     "tailwindcss": "^4.1.10"
   },
   "packageManager": "pnpm@8.6.12"
